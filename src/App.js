@@ -1,8 +1,13 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+
+import Menu from './components/Menu';
 
 function App() {
-  return <h1>Jampintu</h1>;
+  return (
+    <div>
+      <Menu />
+    </div>
+  );
 }
 
 export default App;
